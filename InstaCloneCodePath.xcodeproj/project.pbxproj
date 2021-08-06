@@ -20,6 +20,7 @@
 		928FD7ED26BDB79D0053BB99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD7EC26BDB79D0053BB99 /* LoginViewController.swift */; };
 		928FD7EF26BDB7AB0053BB99 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD7EE26BDB7AB0053BB99 /* FeedViewController.swift */; };
 		928FD7F126BDEE330053BB99 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD7F026BDEE330053BB99 /* CameraViewController.swift */; };
+		928FD7F326BDFD990053BB99 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FD7F226BDFD990053BB99 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		928FD7EC26BDB79D0053BB99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		928FD7EE26BDB7AB0053BB99 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		928FD7F026BDEE330053BB99 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		928FD7F226BDFD990053BB99 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A207050F7E0C797FC9E77507 /* Pods_InstaCloneCodePath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCloneCodePath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B8B0CD0C585A5622CB4DDA /* Pods_InstaCloneCodePath_InstaCloneCodePathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCloneCodePath_InstaCloneCodePathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB533711068B4065F6C2AF17 /* Pods-InstaCloneCodePathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneCodePathTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneCodePathTests/Pods-InstaCloneCodePathTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				928FD7C426BDB6740053BB99 /* Assets.xcassets */,
 				928FD7C626BDB6740053BB99 /* LaunchScreen.storyboard */,
 				928FD7C926BDB6740053BB99 /* Info.plist */,
+				928FD7F226BDFD990053BB99 /* PostCell.swift */,
 			);
 			path = InstaCloneCodePath;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				928FD7BC26BDB6730053BB99 /* AppDelegate.swift in Sources */,
 				928FD7EF26BDB7AB0053BB99 /* FeedViewController.swift in Sources */,
 				928FD7BE26BDB6730053BB99 /* SceneDelegate.swift in Sources */,
+				928FD7F326BDFD990053BB99 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
