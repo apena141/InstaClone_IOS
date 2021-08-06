@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_InstaCloneCodePath_InstaCloneCodePathUITests : NSObject
+@end
+@implementation PodsDummy_Pods_InstaCloneCodePath_InstaCloneCodePathUITests
+@end
