@@ -152,7 +152,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             //
             let comment = comments[indexPath.row - 1]
             cell.commentBody.text = comment["body"] as! String
-            //cell.usernameLabel.text = comment["createdBy"]
+            let commentUser = comment["createdBy"] as! PFUser
+            cell.usernameLabel.text = commentUser.username
             
             return cell
         }else{
